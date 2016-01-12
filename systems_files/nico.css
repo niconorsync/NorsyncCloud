@@ -1,0 +1,142 @@
+.navbar-header a {
+  font-size: 16px;
+  padding: 5px 0 5px 45px;
+  line-height: 45px;
+  color: #fff;
+}
+.navbar-header a.selected {
+  color: #fff;
+  opacity: 0.3;
+}
+.container-fluid {
+  padding: 0;
+}
+.navbar{
+  margin-bottom: auto;
+  height: 100%;
+}
+
+.navbar-nav{
+  margin-bottom: auto;
+  height: 100%;
+}
+.navbar-nav li{
+  margin-bottom: auto;
+  height: 100%;
+}
+.navbar-nav li.active{
+  background-color: #87b451;
+}
+.navbar-nav li a.active{
+  background-color: #87b451;
+}
+.navbar-nav li a{
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: auto;
+  height: 100%;
+  font-size: 15px;
+  padding-top: 22px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #69a125;
+  color: #000;
+}
+
+.navbar-nav li a:hover, .navbar-nav li a:active, .navbar-nav li a:focus{
+  margin-bottom: auto;
+  height: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #87b451;
+}
+
+.container .jumbotron, .container-fluid .jumbotron  {
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.jumbotron p{
+  font-size: 12px;
+  text-align: left;
+}
+.jumbotron{
+  margin-bottom: 15px;
+}
+
+html{
+  background-color: #f1f4f5;
+}
+
+footer {
+  height: 50px;
+  background: #000;
+  opacity: 0.87;
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+footer p {
+  font-size: 14px;
+  color: #fff;
+  padding: 12px 10px 0 10px;
+}
+
+.statistics{
+  width: 46%;
+  margin: 10px;
+  box-shadow: 0 0 5px #e5e5e5;
+}
+.views{
+  width: 70%;
+  margin: 10px;
+  box-shadow: 0 0 5px #e5e5e5;
+}
+
+.left-column{
+  text-align: center;
+}
+h4{
+  text-align:left;
+}
+.statistics-images{
+  text-align: center;
+  padding-left: 25px;
+  margin-bottom: 25px;
+  float: left;
+}
+
+.row{
+  width:100%;
+  margin: 0px;
+}
+.col-sm-12, .ng-scope{
+  margin:0px;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+.btn-md{
+  background: #ff9800;
+  border: none;
+  text-decoration: none;
+  float: left;
+  clear: both;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  color: #000;
+
+}
+.btn-md:hover, .btn-md:focus, .btn-md:active, .btn-primary:active:hover{
+  background: #ff9800;
+  border: none;
+  outline: 0;
+  color: #000;
+}
+.right-column{
+  text-align: center;
+  padding-top: 20px;
+}
+.glyphicon-plus{
+  top:auto;
+  box-shadow: 0 0 5px #517c1d;
+}
