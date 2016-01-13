@@ -205,8 +205,8 @@ style.firebugResetStyles {
             <nav class="navbar ">
 
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Info</a></li>
-                  <li><a href="#">Data model</a></li>
+                  <li><a href="#">Info</a></li>
+                  <li class="active"><a href="#">Data model</a></li>
                   <li><a href="#">Data</a></li>
                   <li><a href="#">Sync Setup</a></li>
                   <li><a href="#">System users</a></li>
@@ -216,42 +216,153 @@ style.firebugResetStyles {
           </div>
 
 				</div>
-        <div class="row">
-          <div class="col-gl-8 col-md-8 left-column">
-            <div class="jumbotron">
-              <h4>Sidewalkin</h4>
-
-              <p>PostgreSQL<br>
-              Online - Public<br>
-              DB Params<br>
-              DB Actions</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-               Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                 Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-                  venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
-                   elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae
-                   , eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla
-                   ut metus varius laoreet.</p>
+        <!-- Data-col -->
+        <div class="col-md-15 col-lg-15">
+          <h4>Branch</h4>
+          <div class="row data-model-row">
+            <div class="row search-row">
+                <div class="input-group stylish-input-group">
+                        <input type="text" class="form-control"  placeholder="Search..." >
+                        <span class="input-group-addon">
+                            <button type="submit">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                <span class="button-plus">
+                    <span class="glyphicon glyphicon-plus"></span>
+                </span>
+              </div>
+            <div class="row model-list"
+            <ul class="list-group">
+              <li class="list-group-item">
+                Model 1
+                  <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+              <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
+                <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
+                <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
+                <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
+                <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
+                <li><a href=#><i class="fa fa-share"></i>Import</a></li>
+                <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
+               </ul>
+              </li>
+              <li class="list-group-item">
+                Model 2
+                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
+              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
+              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
+              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
+              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
+              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
+              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
+             </ul>
+              </li>
+              <li class="list-group-item">
+                Model 3
+                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
+              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
+              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
+              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
+              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
+              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
+              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
+             </ul>
+              </li>
+              <li class="list-group-item">
+                Model 4
+                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
+              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
+              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
+              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
+              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
+              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
+              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
+             </ul>
+              </li>
+              <li class="list-group-item">
+                Model 4
+                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
+              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
+              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
+              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
+              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
+              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
+              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
+             </ul>
+              </li>
+              <li class="list-group-item">
+                Model 4
+                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
+              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
+              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
+              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
+              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
+              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
+              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
+             </ul>
+              </li>
+              <li class="list-group-item">
+                Model 4
+                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
+              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
+              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
+              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
+              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
+              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
+              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
+             </ul>
+              </li>
+              <li class="list-group-item">
+                Model 4
+                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
+              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
+              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
+              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
+              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
+              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
+              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
+             </ul>
+              </li>
+              <li class="list-group-item">
+                Model 4
+                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+              <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
+                <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
+                <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
+                <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
+                <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
+                <li><a href=#><i class="fa fa-share"></i>Import</a></li>
+                <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
+               </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="row properties-row">
+            <div class="properties-box-header">
+              <p class="properties-header">Properties</p>
             </div>
-            <button type="button" class="btn btn-primary btn-md edit-btn">EDIT SYSTEM</button>
-
-            <div class="row statistics-images">
-            <img class="statistics" src="images/cpu.png" alt="" />
-            <img class="statistics" src="images/banwidth.png" alt="" />
-            <img class="statistics" src="images/memory.png" alt="" />
-            <img class="statistics" src="images/disk.png" alt="" />
-          </div>
-
-          </div>
-          <div class="col-gl-4 col-md-4 right-column">
-            <img class="views" src="images/users.png" alt="" />
-            <img class="views" src="images/transactions.png" alt="" />
-            <img class="views" src="images/devices.png" alt="" />
-            <img class="views" src="images/resources.png" alt="" />
+            <p class="properties"> Name<br>
+                Version<br>
+                Inhertiance history<br>
+                Description<br>
+                Baselined<br>
+                Status
+            </p>
           </div>
         </div>
+
+      </div>
+      <!-- End Data-col -->
+    </div>
+
 			</div>
 
 			</section>
