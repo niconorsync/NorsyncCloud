@@ -202,95 +202,10 @@ style.firebugResetStyles {
 
 					</div>
 					<div class="col-lg-8 col-md-8">
-            <nav class="navbar dashboard-nav">
 
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Info</a></li>
-                  <li><a href="#">Data model</a></li>
-                  <li><a href="#">Data</a></li>
-                  <li><a href="#">Sync Setup</a></li>
-                  <li><a href="#">System users</a></li>
-                </ul>
-
-            </nav>
           </div>
 
 				</div>
-        <div class="row">
-          <div class="col-gl-8 col-md-8 left-column">
-            <div class="row">
-            <div class="jumbotron">
-              <div class="row">
-                <div class="col-gl-6 col-md-6">
-                  <fieldset class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" placeholder="Sidewalking" />
-                  </fieldset>
-                  <fieldset class="form-group">
-                    <label for="Database engine">Database engine</label>
-                    <select class="form-control">
-                      <option>PostgreSQL</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </fieldset>
-                  <fieldset class="form-group">
-                    <label for="Status">Status</label>
-                    <select class="form-control">
-                      <option>Online - Public</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </fieldset>
-               </div>
-               <div class="col-gl-6 col-md-6 right-edit">
-                 <fieldset class="form-group ip-port">
-                   <label for="ip">IP:</label>
-                   <input type="text" class="form-control ip" placeholder="" />
-                   <label for="port">Port:</label>
-                   <input type="text" class="form-control port" placeholder="" />
-                 </fieldset>
-                 <fieldset class="form-group">
-                   <label for="user">User</label>
-                   <input type="text" class="form-control" placeholder="" />
-                 </fieldset>
-                 <fieldset class="form-group">
-                   <label for="password">Password</label>
-                   <input type="password" class="form-control" placeholder="" />
-                 </fieldset>
-               </div>
-             </div>
-             <fieldset class="form-group">
-               <label for="description">Description</label>
-               <textarea class="form-control" rows="6">
-               </textarea>
-             </fieldset>
-              <div class="row">
-                <button type="button" class="btn btn-primary btn-md edit-btn save-btn">SAVE</button>
-                <button type="button" class="cancel">CANCEL</button>
-              </div>
-            </div>
-            <div class="row statistics-images">
-            <img class="statistics" src="images/cpu.png" alt="" />
-            <img class="statistics" src="images/banwidth.png" alt="" />
-            <img class="statistics" src="images/memory.png" alt="" />
-            <img class="statistics" src="images/disk.png" alt="" />
-          </div>
-
-          </div>
-
-        </div>
-        <div class="col-gl-4 col-md-4 right-column">
-          <img class="views" src="images/users.png" alt="" />
-          <img class="views" src="images/transactions.png" alt="" />
-          <img class="views" src="images/devices.png" alt="" />
-          <img class="views" src="images/resources.png" alt="" />
-        </div>
-
 			</div>
 
 			</section>
@@ -298,6 +213,63 @@ style.firebugResetStyles {
 	 </div>
 
 	</div>
+
+  <div class="row profile-container">
+    <div class="col-md-9 profile">
+      <div class="jumbotron profile-box">
+        <div class="col-md-3 profile-img">
+            <img src="" alt="">
+            <i class="fa fa-pencil"></i>
+        </div>
+
+        <h4>Anahí Arislur</h4>
+
+        <p>0249 154565656<br>
+        anahi.arislur@norsync.com<br>
+        Belgrano 895<br>
+        7000 - Tandil - Buenos Aires</p>
+        <br>
+        <p><a href=# data-toggle="modal" data-target=".change-password">Change password</a></p>
+
+        <div class="divider"></div>
+
+        <h3>Experience</h3>
+
+        <p>30 years<br>
+        Education<br>
+        Sector<br>
+        Company<br>
+        Position</p>
+        <br>
+      </div>
+        <button type="button" class="btn btn-primary btn-md edit-btn save-btn">EDIT DATA</button>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="1">I want to receive offers and important into by mail.
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="2">I want to receive offers by phone.
+            </label>
+          </div>
+    </div>
+    <div class="col-md-3">
+      <div class="jumbotron profile-status">
+
+        <p><strong>Account type:</strong> Free - <a href=#>Upgrade</a><br>
+          <strong>Status:</strong> Active<br>
+          <strong>Last login:</strong> Apr 02, 2</p>
+        <br>
+        <p><a href=# data-toggle="modal" data-target=".close-account">Close account</a></p>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
 	<footer>
 		<p>Copyright 2015</p>
 	</footer>
@@ -310,4 +282,38 @@ style.firebugResetStyles {
 
 
 
-</body></html>
+</body>
+</html>
+
+<!-- Close Account - Modal -->
+<div class="modal fade close-account" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+      <p>Are you sure you want to close your account?</p>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Change Password - Modal -->
+<div class="modal fade change-password" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="Current password">Current password</label>
+        <input type="password" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="New password">New password</label>
+        <input type="password" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="Confirm new password">Confirm new password</label>
+        <input type="password" class="form-control" placeholder="" />
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->

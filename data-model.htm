@@ -8,7 +8,7 @@
 <link href="lib/bootstrap-select/dist/css/bootstrap-select.min.css?livereload=1452601171829" rel="stylesheet">
 <link href="https://cdn.datatables.net/s/dt/dt-1.10.10/datatables.min.css" type="text/css" rel="stylesheet">
 <link href="stylesheets/main.css?livereload=1452601171832" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
@@ -202,7 +202,7 @@ style.firebugResetStyles {
 
 					</div>
 					<div class="col-lg-8 col-md-8">
-            <nav class="navbar ">
+            <nav class="navbar dashboard-nav">
 
                 <ul class="nav navbar-nav">
                   <li><a href="#">Info</a></li>
@@ -216,6 +216,7 @@ style.firebugResetStyles {
           </div>
 
 				</div>
+        <div class="row data-container">
         <!-- Data-col -->
         <div class="col-md-15 col-lg-15">
           <h4>Branch</h4>
@@ -229,122 +230,26 @@ style.firebugResetStyles {
                             </button>
                         </span>
                     </div>
-                <span class="button-plus">
+                <span class="button-plus" data-toggle="modal" data-target=".create-branch">
                     <span class="glyphicon glyphicon-plus"></span>
                 </span>
               </div>
+
             <div class="row model-list"
             <ul class="list-group">
               <li class="list-group-item">
                 Model 1
                   <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
               <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
-                <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
-                <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
-                <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
-                <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
-                <li><a href=#><i class="fa fa-share"></i>Import</a></li>
-                <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
-               </ul>
-              </li>
-              <li class="list-group-item">
-                Model 2
-                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
-            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
-              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
-              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
-              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
-              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
-              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
-              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
-             </ul>
-              </li>
-              <li class="list-group-item">
-                Model 3
-                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
-            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
-              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
-              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
-              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
-              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
-              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
-              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
-             </ul>
-              </li>
-              <li class="list-group-item">
-                Model 4
-                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
-            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
-              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
-              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
-              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
-              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
-              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
-              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
-             </ul>
-              </li>
-              <li class="list-group-item">
-                Model 4
-                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
-            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
-              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
-              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
-              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
-              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
-              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
-              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
-             </ul>
-              </li>
-              <li class="list-group-item">
-                Model 4
-                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
-            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
-              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
-              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
-              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
-              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
-              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
-              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
-             </ul>
-              </li>
-              <li class="list-group-item">
-                Model 4
-                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
-            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
-              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
-              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
-              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
-              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
-              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
-              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
-             </ul>
-              </li>
-              <li class="list-group-item">
-                Model 4
-                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
-            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
-              <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
-              <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
-              <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
-              <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
-              <li><a href=#><i class="fa fa-share"></i>Import</a></li>
-              <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
-             </ul>
-              </li>
-              <li class="list-group-item">
-                Model 4
-                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
-              <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
-                <li><a href=#><i class="fa fa-clone"></i>Clone</a></li>
-                <li><a href=#><i class="fa fa-bookmark"></i>Mark as Baseline</a></li>
-                <li><a href=#><i class="fa fa-undo"></i>Revert</a></li>
-                <li><a href=#><i class="fa fa-reply"></i>Export</a></li>
-                <li><a href=#><i class="fa fa-share"></i>Import</a></li>
-                <li><a href=#><i class="fa fa-trash"></i>Delete</a></li>
+                <li><a href=# data-toggle="modal" data-target=".clone-branch"><i class="fa fa-clone fa-fw"></i>&nbsp;Clone</a></li>
+                <li><a href=# data-toggle="modal" data-target=".mark-branch"><i class="fa fa-bookmark fa-fw"></i>&nbsp;Mark as Baseline</a></li>
+                <li><a href=# data-toggle="modal" data-target=".revert-branch"><i class="fa fa-undo fa-fw"></i>&nbsp;Revert</a></li>
+                <li><a href=# data-toggle="modal" data-target=".delete-branch"><i class="fa fa-trash fa-fw"></i>&nbsp;Delete</a></li>
                </ul>
               </li>
             </ul>
           </div>
+
           <div class="row properties-row">
             <div class="properties-box-header">
               <p class="properties-header">Properties</p>
@@ -360,7 +265,200 @@ style.firebugResetStyles {
         </div>
 
       </div>
-      <!-- End Data-col -->
+      <!-- Data-col End  -->
+      <!-- Data-col -->
+      <div class="col-md-15 col-lg-15">
+        <h4>Tables</h4>
+        <div class="row data-model-row">
+          <div class="row search-row">
+              <div class="input-group stylish-input-group">
+                      <input type="text" class="form-control"  placeholder="Search..." >
+                      <span class="input-group-addon">
+                          <button type="submit">
+                              <span class="glyphicon glyphicon-search"></span>
+                          </button>
+                      </span>
+                  </div>
+              <span class="button-plus" data-toggle="modal" data-target=".create-table">
+                  <span class="glyphicon glyphicon-plus"></span>
+              </span>
+            </div>
+
+          <div class="row model-list"
+          <ul class="list-group">
+            <li class="list-group-item">
+              Table 1
+                <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+            <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
+              <li><a href=# data-toggle="modal" data-target=".rename-table"><i class="fa fa-i-cursor fa-fw"></i>&nbsp;Rename</a></li>
+              <li><a href=# data-toggle="modal" data-target=".clone-table"><i class="fa fa-clone fa-fw"></i>&nbsp;Clone</a></li>
+              <li><a href=# data-toggle="modal" data-target=".clone-table-into"><i class="fa fa-clone fa-fw"></i>&nbsp;Clone Into</a></li>
+              <li><a href=# data-toggle="modal" data-target=".move-table-into"><i class="fa fa-external-link fa-fw"></i>&nbsp;Move Into</a></li>
+              <li><a href=# data-toggle="modal" data-target=".delete-table"><i class="fa fa-trash fa-fw"></i>&nbsp;Delete</a></li>
+             </ul>
+            </li>
+
+          </ul>
+        </div>
+        <div class="row properties-row">
+          <div class="properties-box-header">
+            <p class="properties-header">Properties</p>
+          </div>
+          <p class="properties"> Name<br>
+              Type dropdown<br>
+              Statistics<br>
+              Description
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <!-- Data-col End  -->
+    <!-- Data-col -->
+    <div class="col-md-15 col-lg-15">
+      <h4>Columns</h4>
+      <div class="row data-model-row">
+        <div class="row search-row">
+            <div class="input-group stylish-input-group">
+                    <input type="text" class="form-control"  placeholder="Search..." >
+                    <span class="input-group-addon">
+                        <button type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+            <span class="button-plus" data-toggle="modal" data-target=".create-column">
+                <span class="glyphicon glyphicon-plus"></span>
+            </span>
+          </div>
+
+        <div class="row model-list"
+        <ul class="list-group">
+          <li class="list-group-item">
+            Column 1
+              <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+          <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
+            <li><a href=# data-toggle="modal" data-target=".rename-column"><i class="fa fa-i-cursor fa-fw"></i>&nbsp;Rename</a></li>
+            <li><a href=# data-toggle="modal" data-target=".modify-column"><i class="fa fa-pencil fa-fw"></i>&nbsp;Modify</a></li>
+            <li><a href=# data-toggle="modal" data-target=".delete-column"><i class="fa fa-trash fa-fw"></i>&nbsp;Delete</a></li>
+           </ul>
+          </li>
+
+        </ul>
+      </div>
+      <div class="row properties-row">
+        <div class="properties-box-header">
+          <p class="properties-header">Properties</p>
+        </div>
+        <p class="properties"> Name<br>
+                              Data type<br>
+                              Default values<br>
+                              Format<br>
+                              Not null<br>
+                              Unique<br>
+                              Sticky<br>
+                              Function<br>
+                              Transformation<br>
+                              Validation
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <!-- Data-col End  -->
+  <!-- Data-col -->
+  <div class="col-md-15 col-lg-15">
+    <h4>Indexes</h4>
+    <div class="row data-model-row">
+      <div class="row search-row">
+          <div class="input-group stylish-input-group">
+                  <input type="text" class="form-control"  placeholder="Search..." >
+                  <span class="input-group-addon">
+                      <button type="submit">
+                          <span class="glyphicon glyphicon-search"></span>
+                      </button>
+                  </span>
+              </div>
+          <span class="button-plus" data-toggle="modal" data-target=".create-index">
+              <span class="glyphicon glyphicon-plus"></span>
+          </span>
+        </div>
+
+      <div class="row model-list"
+      <ul class="list-group">
+        <li class="list-group-item">
+          Index 1
+            <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+        <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
+          <li><a href=# data-toggle="modal" data-target=".modify-index"><i class="fa fa-pencil fa-fw"></i>&nbsp;Modify</a></li>
+          <li><a href=# data-toggle="modal" data-target=".delete-index"><i class="fa fa-trash fa-fw"></i>&nbsp;Delete</a></li>
+         </ul>
+        </li>
+
+      </ul>
+    </div>
+    <div class="row properties-row">
+      <div class="properties-box-header">
+        <p class="properties-header">Properties</p>
+      </div>
+      <p class="properties"> Index name<br>
+                          Index type<br>
+                          Index function<br>
+                          Error message
+      </p>
+    </div>
+  </div>
+
+</div>
+<!-- Data-col End  -->
+<!-- Data-col -->
+<div class="col-md-15 col-lg-15">
+  <h4>Instances</h4>
+  <div class="row data-model-row last">
+    <div class="row search-row">
+        <div class="input-group stylish-input-group">
+                <input type="text" class="form-control"  placeholder="Search..." >
+                <span class="input-group-addon">
+                    <button type="submit">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+            </div>
+        <span class="button-plus" data-toggle="modal" data-target=".create-instance">
+            <span class="glyphicon glyphicon-plus"></span>
+        </span>
+      </div>
+
+    <div class="row model-list"
+    <ul class="list-group">
+      <li class="list-group-item">
+        Instance 1
+          <span class="glyphicon glyphicon-option-vertical" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></span>
+      <ul class="dropdown-menu data-model-menu" aria-labelledby="dropdownMenu4">
+        <li><a href=# data-toggle="modal" data-target=".clone-instance"><i class="fa fa-clone fa-fw"></i>&nbsp;Clone</a></li>
+        <li><a href=# data-toggle="modal" data-target=".alter-type-instance"><i class="fa fa-random fa-fw"></i>&nbsp;Alter type</a></li>
+        <li><a href=# data-toggle="modal" data-target=".bring-online-instance"><i class="fa fa-power-off fa-fw"></i>&nbsp;Bring online</a></li>
+       </ul>
+      </li>
+
+    </ul>
+  </div>
+  <div class="row properties-row">
+    <div class="properties-box-header">
+      <p class="properties-header">Properties</p>
+    </div>
+    <p class="properties"> DBMS Engine<br>
+                          Type<br>
+                          Identifier<br>
+                          External address<br>
+                          Resource group dropdown
+    </p>
+  </div>
+</div>
+
+</div>
+<!-- Data-col End  -->
+</div>
     </div>
 
 			</div>
@@ -382,4 +480,642 @@ style.firebugResetStyles {
 
 
 
-</body></html>
+</body>
+</html>
+
+<!-- Modals -->
+
+<!-- Create Branch - Modal -->
+<div class="modal fade create-branch" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Description</label>
+        <textarea rows="6" class="form-control" placeholder="" /></textarea>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Create Table - Modal -->
+<div class="modal fade create-table" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Type</label>
+        <select class="form-control">
+          <option></option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Description</label>
+        <textarea rows="6" class="form-control" placeholder="" /></textarea>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Create Column - Modal -->
+<div class="modal fade create-column" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Data type</label>
+        <select class="form-control">
+          <option>Relation</option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Related table</label>
+        <div class="form-control check-list">
+      <div class="radio">
+        <label>
+            <input type="radio" type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+            Table 1
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+            <input type="radio" type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            Table 2
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+            <input type="radio" type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+            Table 3
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+            <input type="radio" type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+            Table 4
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+            <input type="radio" type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+            Table 5
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+            <input type="radio" type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+            Table 6
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+            <input type="radio" type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+            Table 7
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+            <input type="radio" type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+            Table 8
+        </label>
+      </div>
+    </div>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Insert Rule</label>
+        <select class="form-control">
+          <option></option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Delete Rule</label>
+        <select class="form-control">
+          <option></option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Default values</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Format</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Function</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Transformation</label>
+        <select class="form-control">
+          <option></option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Validation</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Comments</label>
+        <textarea rows="6" class="form-control" placeholder="" /></textarea>
+      </fieldset>
+      <fieldset class="form-group">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="1">Not null
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="2">Unique
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="3">Sticky
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="">Primary Key
+          </label>
+        </div>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Create Index - Modal -->
+<div class="modal fade create-index" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Type</label>
+        <select class="form-control">
+          <option></option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Function</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Error message</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label class="columns" for="exampleInputEmail1">Columns</label>
+      <div class="row multiselect-row">
+        <div class="col-lg-5">
+          <div class="form-group">
+            <select multiple class="form-control multiselect" id="sel1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-lg-2 arrows">
+          <i class="fa fa-arrow-right"></i>
+          <i class="fa fa-arrow-left"></i>
+        </div>
+        <div class="col-lg-5">
+          <div class="form-group">
+            <select multiple class="form-control multiselect" id="sel2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <i class="fa fa-arrow-circle-up"></i>
+          <i class="fa fa-arrow-circle-down"></i>
+        </div>
+      </div>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Create Instance - Modal -->
+<div class="modal fade create-instance" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="DBMS Engine">DBMS Engine</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="Type">Type</label>
+        <select class="form-control">
+          <option></option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="Identifier">Identifier</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="External address">External address</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="Resourse group dropdown">Resourse group dropdown</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Clone Branch - Modal -->
+<div class="modal fade clone-branch" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Description</label>
+        <textarea rows="6" class="form-control" placeholder="" /></textarea>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Mark Branch - Modal -->
+<div class="modal fade mark-branch" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+      <p>Do you want to save a new version of this branch?</p>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Revert Branch - Modal -->
+<div class="modal fade revert-branch" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+      <p>If you revert to old version, you will lose the actual version.</p>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Select the version that you want:</label>
+      <div class="radio">
+        <label>
+            <input type="radio" type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+            Version 3
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+            <input type="radio" type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            Version 2
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+            <input type="radio" type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+            Version 1
+        </label>
+      </div>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Delete Branch - Modal -->
+<div class="modal fade delete-branch" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+      <p>Are you sure you want to delete this branch?<br>
+      If you delete this branch, the entire structure will be removed.</p>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Rename Table - Modal -->
+<div class="modal fade rename-table" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Clone Table - Modal -->
+<div class="modal fade clone-table" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Type</label>
+        <select class="form-control">
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Description</label>
+        <textarea rows="6" class="form-control" placeholder="" /></textarea>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Clone Table Into - Modal -->
+<div class="modal fade clone-table-into" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Select version</label>
+        <select class="form-control">
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Type</label>
+        <select class="form-control">
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Description</label>
+        <textarea rows="6" class="form-control" placeholder="" /></textarea>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Move Table Into - Modal -->
+<div class="modal fade move-table-into" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Select version</label>
+        <select class="form-control">
+        </select>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Delete Table - Modal -->
+<div class="modal fade delete-table" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+      <p>Are you sure you want to delete this table?<br>
+      If you delete this table, the entire structure will be removed.</p>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Rename Column - Modal -->
+<div class="modal fade rename-column" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Modify Column - Modal -->
+<div class="modal fade modify-column" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Data type</label>
+        <select class="form-control">
+          <option>Relation</option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Default values</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Format</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Function</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Transformation</label>
+        <select class="form-control">
+          <option></option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Validation</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Comments</label>
+        <textarea rows="6" class="form-control" placeholder="" /></textarea>
+      </fieldset>
+      <fieldset class="form-group">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="1">Not null
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="2">Unique
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="3">Sticky
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="">Primary Key
+          </label>
+        </div>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Delete Column - Modal -->
+<div class="modal fade delete-column" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+      <p>Are you sure you want to delete this column?<br>
+      If you delete this column, the entire structure will be removed.</p>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Modify Index - Modal -->
+<div class="modal fade modify-index" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Type</label>
+        <select class="form-control">
+          <option></option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Function</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleInputEmail1">Error message</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="exampleSelect1">Columns</label>
+        <div class="form-control check-list">
+      <div class="checkbox">
+        <label>
+            <input type="checkbox" value="option1">
+            Column 1
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+            <input type="checkbox" value="option2">
+            Column 2
+        </label>
+      </div>
+    </div>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Delete Index - Modal -->
+<div class="modal fade delete-index" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+      <p>Are you sure you want to delete this index?<br>
+      If you delete this index, the entire structure will be removed.</p>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Clone Instance - Modal -->
+<div class="modal fade clone-instance" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="DBMS Engine">DBMS Engine</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="Type">Type</label>
+        <select class="form-control">
+          <option></option>
+        </select>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="Identifier">Identifier</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="External address">External address</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="Resourse group dropdown">Resourse group dropdown</label>
+        <input type="text" class="form-control" placeholder="" />
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Alter Type of Instance - Modal -->
+<div class="modal fade alter-type-instance" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+        <label for="Type">Type</label>
+        <select class="form-control">
+          <option></option>
+        </select>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
+
+<!-- Bring Online Instance - Modal -->
+<div class="modal fade bring-online-instance" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <fieldset class="form-group">
+      <p>Are you sure you want to bring online this instance?</p>
+      </fieldset>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->

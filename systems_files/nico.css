@@ -1,3 +1,4 @@
+/*Dashboard-Nav*/
 .header-left {
     border-right: 1px solid #848484;
 }
@@ -27,28 +28,29 @@
   margin-bottom: auto;
   height: 100%;
 }
-.navbar-nav li a.active{
+.dashboard-nav li a.active{
   background-color: #87b451;
 }
-.navbar-nav li a{
+.dashboard-nav li a{
   font-family: 'Open Sans', sans-serif;
   margin-bottom: auto;
   height: 100%;
-  font-size: 15px;
+  font-size: 20px;
   padding-top: 22px;
   padding-left: 40px;
   padding-right: 40px;
-  background-color: #69a125;
   color: #000;
 }
 
-.navbar-nav li a:hover, .navbar-nav li a:active, .navbar-nav li a:focus, .navbar-nav li.active a{
+.dashboard-nav li a:hover, .dashboard-nav li a:active, .dashboard-nav li a:focus, .dashboard-nav li.active a{
   margin-bottom: auto;
   height: 100%;
   padding-left: 40px;
   padding-right: 40px;
   background-color: #87b451;
 }
+
+/*Dashboard System*/
 
 .container .jumbotron, .container-fluid .jumbotron  {
     padding: 20px;
@@ -59,6 +61,7 @@
 .jumbotron p{
   font-size: 12px;
   text-align: left;
+  font-weight: 400;
 }
 .jumbotron{
   margin-bottom: 15px;
@@ -97,7 +100,7 @@ footer p {
 .left-column{
   text-align: center;
 }
-h4{
+.jumbotron h4{
   text-align:left;
 }
 .statistics-images{
@@ -106,7 +109,7 @@ h4{
   padding-left: 25px;
 }
 
-.row{
+.container .row, .container-fluid .row:first-child{
   width:100%;
   margin: 0px;
 }
@@ -116,6 +119,8 @@ h4{
   padding-right: 0;
 
 }
+
+/*System-Edit*/
 .edit-btn{
   background: #ff9800;
   border: none;
@@ -147,7 +152,7 @@ label{
   font-size: 13px;
 }
 .right-edit{
-  padding-top: 72px;
+  padding-top: 23px;
 }
 h5{
 text-align: left;
@@ -183,7 +188,6 @@ p.description{
 }
 
 /*Data-model*/
-
 .col-xs-15,
 .col-sm-15,
 .col-md-15,
@@ -214,6 +218,7 @@ p.description{
      {
         width: 20%;
         float: left;
+        margin: 20px 0;
     }
 }
 
@@ -270,7 +275,7 @@ p.description{
 }
 .model-list{
   overflow-y: scroll;
-  height: 200px;
+  height: 250px;
   background-color: white;
 }
 .model-list .list-group-item{
@@ -302,13 +307,13 @@ border-bottom-right-radius: 0px;
 }
 p.properties{
   margin-top: 15px;
-  margin-left: 20px;
+  margin-left: 15px;
   float: left;
   clear: both;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
 }
-.col-lg-15 .row, .col-md-15 .row{
+.data-model-row{
   border-left: 1px solid #ccc;
 
 }
@@ -317,14 +322,15 @@ p.properties{
   border-bottom: 1px solid #ccc;
 }
 .properties-row{
-  height: 300px;
+  height: 270px;
 }
 .data-model-row{
   background-color: #dedede;
 }
 .col-md-15 h4,.col-lg-15 h4{
   margin-left: 10px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 300;
 }
 .data-model-row .dropdown-menu {
   position: relative;
@@ -332,7 +338,6 @@ p.properties{
 }
 ul.data-model-menu i{
   float: left;
-  margin-right: 10px;
   font-size: 15px;
 }
 .dropdown-menu > li > a {
@@ -352,4 +357,272 @@ ul.data-model-menu i{
     margin-left: 23%;
     top: 0;
     margin-top: 10%;
+}
+
+.fa-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+.button-plus{
+  cursor: pointer;
+}
+.modal-content{
+  padding: 20px;
+}
+.input-group .form-control {
+  font-size: 13px;
+}
+.radio{
+  float: left;
+  clear: left;
+}
+.check-list{
+  width:100%;
+  height:150px;
+  overflow-y:scroll;
+}
+.checkbox label{
+  float: none;
+  line-height: 1.7;
+}
+.modal-content select.form-control{
+  width: 80%;
+  float: left;
+  clear: both;
+}
+.modal-content .col-lg-5{
+  padding: 0;
+}
+
+.modal-content select.multiselect{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 5px;
+}
+.col-lg-15 .modal-content .row{
+  border: none;
+}
+input.ip{
+  width: 60%;
+  float: left;
+}
+input.port{
+  width: 20%;
+}
+.ip-port label{
+  padding: 5px;
+}
+label.columns{
+  float: none;
+}
+.multiselect-row .fa{
+  color: #ff9800;
+  font-size: 18px;
+  cursor: pointer;
+}
+.arrows{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.modal-content p {
+  font-size: 13px;
+}
+.multiselect-row {
+  padding: 0 10px;
+}
+.row.data-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.data-model-row.last{
+  border-right: 1px solid #ccc;
+}
+
+/*Profile*/
+.jumbotron.profile-box {
+    background-color: white;
+    padding: 15px;
+}
+.row.profile-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+.profile-img{
+  height: 170px;
+  width: 170px;
+  background-color: #d8dbdc;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+.profile-img .fa-pencil{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.row.profile-container p{
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.row.profile-container p a{
+  color: #ff9800;
+  text-decoration: none;
+}
+.row.profile-container h4{
+  font-size: 24px;
+}
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 40px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.row.profile-container h3{
+  font-size: 17px;
+}
+.profile-btn{
+  background: #ff9800;
+  border: none;
+  text-decoration: none;
+  float: left;
+  clear: both;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  color: #000;
+  box-shadow: 0 0 5px #e5e5e5;
+  margin: 0;
+}
+.col-md-9.profile .checkbox{
+  float: left;
+  clear: both;
+}
+.row.profile-container {
+  width: 100%;
+  padding-right: 0;
+}
+.jumbotron.profile-status {
+    background-color: #e1e1e1;
+    padding: 15px;
+}
+.jumbotron.profile-status p{
+  margin-bottom: 0;
+  font-size: 16px;
+}
+/*Profile-Edit*/
+.row.profile-btns{
+  margin: 0;
+}
+.input-md{
+  width: 70%;
+  float: left;
+  clear: both;
+}
+.input-sm{
+  width: 30%;
+  float: left;
+  clear: both;
+}
+
+/*Sync Setup*/
+
+.test {
+	padding: 10;
+	margin: 10;
+	font-family: "Open Sans", sans-serif;
+	font-style: italic;
+}
+
+
+.node-rect {
+	stroke: none;
+	stroke-width: 2;
+	fill:white;
+}
+
+.mouseover-node-rect {
+	stroke: #e5e5e5;
+	stroke-width: 4;
+		fill:white;
+
+}
+
+.selected-node-rect {
+	stroke: #e5e5e5;
+	stroke-width: 3;
+		fill:#e5e5e5;
+}
+
+.connector-circle {
+    fill: transparent;
+    stroke:;
+    stroke-width:;
+}
+
+.mouseover-connector-circle {
+    fill: transparent;
+    stroke: black;
+    stroke-width: 3;
+}
+
+.connection {
+}
+
+.connection-line {
+	stroke: gray;
+	stroke-width: 2;
+	fill: transparent;
+}
+
+.mouseover-connection-line {
+	stroke: gray;
+	stroke-width: 4;
+	fill: transparent;
+}
+
+.selected-connection-line {
+	stroke: #ff9800;
+	stroke-width: 4;
+	fill: transparent;
+}
+
+.connection-endpoint {
+	fill: transparent;
+}
+
+.selected-connection-endpoint {
+	fill: transparent;
+}
+
+.mouseover-connection-endpoint {
+	fill: transparent;
+}
+
+.dragging-connection {
+	pointer-events: none;
+}
+
+.dragging-connection-line {
+	stroke: gray;
+	stroke-width: 3;
+	fill: transparent;
+}
+
+.dragging-connection-endpoint {
+	fill: gray;
+}
+
+.draggable-container {
+	border: solid 1px blue;
+}
+
+.drag-selection-rect {
+	stroke: blue;
+	stroke-width: 2;
+	fill: transparent;
 }
