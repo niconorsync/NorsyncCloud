@@ -202,79 +202,37 @@ style.firebugResetStyles {
 
 					</div>
 					<div class="col-lg-8 col-md-8">
-            <nav class="navbar dashboard-nav">
 
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Info</a></li>
-                  <li><a href="#">Data model</a></li>
-                  <li><a href="#">Data</a></li>
-                  <li><a href="#">Sync Setup</a></li>
-                  <li><a href="#">System users</a></li>
-                </ul>
-
-            </nav>
           </div>
 
 				</div>
         <div class="row">
           <div class="col-lg-9 col-md-9 left-column">
-            <div class="row">
-            <div class="jumbotron">
-              <div class="row">
-                <div class="col-lg-6 col-md-6">
-                  <fieldset class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" placeholder="Sidewalking" />
-                  </fieldset>
-                  <fieldset class="form-group">
-                    <label for="Database engine">Database engine</label>
-                    <select class="form-control">
-                      <option>PostgreSQL</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </fieldset>
-                  <fieldset class="form-group">
-                    <label for="Status">Status</label>
-                    <select class="form-control">
-                      <option>Online - Public</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                    </select>
-                  </fieldset>
-               </div>
-               <div class="col-lg-6 col-md-6 right-edit">
-                 <fieldset class="form-group ip-port">
-                   <label for="ip">IP:</label>
-                   <input type="text" class="form-control ip" placeholder="" />
-                   <label for="port">Port:</label>
-                   <input type="text" class="form-control port" placeholder="" />
-                 </fieldset>
-                 <fieldset class="form-group">
-                   <label for="user">User</label>
-                   <input type="text" class="form-control" placeholder="" />
-                 </fieldset>
-                 <fieldset class="form-group">
-                   <label for="password">Password</label>
-                   <input type="password" class="form-control" placeholder="" />
-                 </fieldset>
-               </div>
-             </div>
-             <fieldset class="form-group">
-               <label for="description">Description</label>
-               <textarea class="form-control" rows="6">
-               </textarea>
-             </fieldset>
-              <div class="row">
-                <button type="button" class="btn btn-primary btn-md edit-btn save-btn">SAVE</button>
-                <button type="button" class="cancel">CANCEL</button>
+            <div class="jumbotron dashboard-warning">
+              <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                <div class="row warning-wrapper">
+                  <div class="col-lg-1 col-md-1 warning-icon">
+                    <i class="fa fa-exclamation-triangle"></i>
+                  </div>
+                	<div class="col-lg-10 col-md-10 warning-info">
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                      Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                       Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                        venenatis vitae, justo.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                      </p>
+                  </div>
               </div>
             </div>
-            <div class="row statistics-images">
+            <div class="row dashboard-views">
+              <div class="col-md-4 statistic-wrapper systems"><div class="number">25</div><div class="title">Systems</div><div class="list-view">View system list</div></div>
+              <div class="col-md-4 statistic-wrapper users"><div class="number">154</div><div class="title">Users</div><div class="list-view">View user list</div></div>
+              <div class="col-md-4 statistic-wrapper transactions"><div class="number">47869</div><div class="title">Transactions</div><div class="list-view"></div></div>
+            </div>
+
+            <div class="row statistics-images dashboard">
             <img class="statistics" src="images/cpu.png" alt="" />
             <img class="statistics" src="images/banwidth.png" alt="" />
             <img class="statistics" src="images/memory.png" alt="" />
@@ -282,15 +240,39 @@ style.firebugResetStyles {
           </div>
 
           </div>
-
+          <div class="col-lg-3 col-md-3 right-column dashboard-news">
+            <div class="jumbotron news-container">
+              <div class="row news-header">
+                <h4 class="news">News</h4>
+              </div>
+              <div class="row dashboard-new">
+                <p class="title">Nulla consequat massa</p>
+                <p class="post-info">3 min ago • posted by Anahi</p>
+                <p class="body">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                   Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+                    parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
+                    vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
+                     felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
+                     vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
+                  dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+              </div>
+              <div class="divider"></div>
+              <div class="row dashboard-new">
+                <p class="title">Nulla consequat massa</p>
+                <p class="post-info">3 min ago • posted by Anahi</p>
+                <p class="body">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                   Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+                    parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
+                    vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
+                     felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
+                     vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
+                  dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-3 right-column">
-          <div class="statistic-wrapper users"><div class="number">154</div><div class="title">Users</div><div class="list-view">View user list</div></div>
-          <div class="statistic-wrapper transactions"><div class="number">47869</div><div class="title">Transactions</div><div class="list-view"></div></div>
-          <div class="statistic-wrapper devices"><div class="number">451</div><div class="title">Devices</div><div class="list-view"></div></div>
-          <div class="statistic-wrapper systems"><div class="number">14676</div><div class="title">Resource usage</div><div class="list-view">View system list</div></div>
-        </div>
-
 			</div>
 
 			</section>
